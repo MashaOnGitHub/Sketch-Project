@@ -8,15 +8,15 @@
 
 .container div {
     /* background-color: red; */
-    opacity: 0.8;
+    /* opacity: 1; */
     aspect-ratio: 1;
     border-top: 5px solid #000;
     border-left: 5px solid #000;
 }
 
-.image {
+.container img {
+    opacity: 0.7;
+    aspect-ratio: 1;
     position: absolute;
-    /* grid-area: overlayimage; */
-    opacity: 0.3;
     z-index: -1;
 }
